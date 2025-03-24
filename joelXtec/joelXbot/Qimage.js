@@ -7,13 +7,13 @@ const quranImage = async (m, gss) => {
   const validCommands = ['quraimage', 'qimg', 'qimg'];
 
   if (validCommands.includes(cmd)) {
-    const joelUrl = `https://bk9.fun/Islam/din`;
+    const joelUrl = `https://files.catbox.moe/3jpwr1.jpg`;
 await m.React('⏳'); // React with a loading icon
     await gss.sendMessage(
       m.from,
       {
         image: { url: joelUrl },
-        caption: `*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ  ᴊᴏᴇʟ*`,
+        caption: `*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ*`,
       },
       { quoted: m }
     );
