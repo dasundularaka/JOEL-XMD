@@ -26,10 +26,10 @@ const alive = async (m, sock) => {
 
     
     // Get real time
-    const realTime = moment().tz("Tanzania/Dodoma").format("HH:mm:ss");
-    const xtime = moment.tz("Tanzania/Dodoma").format("HH:mm:ss");
-    const xdate = moment.tz("Tanzania/Dodoma").format("DD/MM/YYYY");
-    const time2 = moment().tz("Tanzania/Dodoma").format("HH:mm:ss");
+    const realTime = moment().tz("Sri Lanka/Colombo").format("HH:mm:ss");
+    const xtime = moment.tz("Sri Lanka/Colombo").format("HH:mm:ss");
+    const xdate = moment.tz("Sri Lanka/Colombo").format("DD/MM/YYYY");
+    const time2 = moment().tz("Sri Lanka/Colombo").format("HH:mm:ss");
 let pushwish = "";
 
 if (time2 < "05:00:00") {
@@ -49,7 +49,7 @@ if (time2 < "05:00:00") {
     const aliveMessage = `нєℓℓσ
  *${pushName}* ${pushwish}
 ╭───────────────━⊷
-║ ᴊᴏᴇʟ-xᴍᴅ ʙᴜɢ  ᴍᴇɴᴜ
+║ ᴢᴇʀᴏ xᴍᴅ ʙᴜɢ  ᴍᴇɴᴜ
 ╰───────────────━⊷
 
 - ∂σ¢вυg
@@ -81,12 +81,12 @@ if (time2 < "05:00:00") {
           isForwarded: false,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363317462952356@newsletter',
-            newsletterName: "ᴊᴏᴇʟ xᴅ ʙᴏᴛ ᴠ ⁷",
+            newsletterName: "ᴢᴇʀᴏ xᴍᴅ ʙᴏᴛ ᴠ ⁷",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "ᴊᴏᴇʟ xᴅ ʙᴏᴛ ᴠ ⁷",
+            title: "ᴢᴇʀᴏ xᴍᴅ ʙᴏᴛ ᴠ ⁷",
             body: "ρяєηιυм υѕєя ¢σммαη∂ѕ",
             thumbnailUrl: 'https://avatars.githubusercontent.com/u/200203225?v=4', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K', // Add source URL if necessary
