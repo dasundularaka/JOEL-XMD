@@ -26,7 +26,7 @@ const groupInfo = async (message, sock) => {
         infoText += `│ *Created by:* ${creator}\n`;
         infoText += `│ *Created on:* ${new Date(metadata.creation * 1000).toLocaleString()}\n`;
         infoText += `╰───────────❍\n\n`;
-        infoText += `*Description:* \n_${description}_\n\n*KEEP USING JOEL XMD BOT*`;
+        infoText += `*Description:* \n_${description}_\n\n*KEEP USING ZERO XMD BOT*`;
 
         await sock.sendMessage(chatId, { text: infoText }, { quoted: message });
 
