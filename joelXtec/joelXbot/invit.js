@@ -21,7 +21,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       return m.reply('*ʙᴏᴛ ᴍᴜsᴛ ʙᴇ ᴀɴ ᴀᴅᴍɪɴ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.*');
     }
 
-    if (!text) return m.reply(`* ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɪɴᴠɪᴛᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ*\n\nᴇxᴀᴍᴘʟᴇ:\n*${prefix + cmd}* 255714595078`);
+    if (!text) return m.reply(`* ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɪɴᴠɪᴛᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ*\n\nᴇxᴀᴍᴘʟᴇ:\n*${prefix + cmd}* 94765714446`);
     if (text.includes('+')) return m.reply(`*ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴛᴏɢᴇᴛʜᴇʀ ᴡɪᴛʜᴏᴜᴛ *+*`);
     if (isNaN(text)) return m.reply(`*ᴇɴᴛᴇʀ ᴏɴʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀs ᴘʟᴜs ʏᴏᴜʀ ᴄᴏᴜɴᴛʀʏ ᴄᴏᴅᴇ ᴡɪᴛʜᴏᴜᴛ sᴘᴀᴄᴇs*`);
 
