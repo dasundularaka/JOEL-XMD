@@ -11,7 +11,7 @@ const vcfCompiler = async (m, gss) => {
       return m.reply("*THIS COMMAND CAN ONLY BE USED IN GROUPS!*");
     }
 
-    m.reply("*JOEL XMD IS COMPUTING YOUR CONTACTS*");
+    m.reply("*ZERO-XMD IS COMPUTING YOUR CONTACTS*");
 
     const groupMetadata = await gss.groupMetadata(m.from);
     const participants = groupMetadata.participants;
@@ -37,7 +37,7 @@ END:VCARD`;
     const vcfPath = path.join("/tmp", `GroupContacts-${m.from}.vcf`);
     fs.writeFileSync(vcfPath, vcfContent, "utf8");
 
-    await gss.sendMessage(m.from, { document: { url: vcfPath }, mimetype: "text/x-vcard", fileName: "Wa_Group_Contacts~By Lord joel" });
+    await gss.sendMessage(m.from, { document: { url: vcfPath }, mimetype: "text/x-vcard", fileName: "Wa_Group_Contacts~By Zero-XMD" });
 
     m.reply("*✅ Contact list compiled successfully! Download and import it into your phone or Gmail.*");
   } catch (error) {
