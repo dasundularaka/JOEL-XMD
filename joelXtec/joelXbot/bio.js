@@ -66,7 +66,7 @@ const updateBio = async (Matrix) => {
 
   const randomQuote = getRandomQuote();
 
-  const newBio = `ʝσєℓ χ∂ ν⁷ ιѕ αℓινє ƒяσм ${uptime} | qυσтє: "${randomQuote}"`;
+  const newBio = `zєяσ-χм∂ ιѕ αℓινє ƒяσм ${uptime} | qυσтє: "${randomQuote}"`;
 
   try {
 
