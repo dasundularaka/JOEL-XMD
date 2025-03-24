@@ -27,10 +27,10 @@ const joel = async (m, sock) => {
 
     
     // Get real time
-    const realTime = moment().tz("Tanzania/Dodoma").format("HH:mm:ss");
-    const xtime = moment.tz("Tanzania/Dodoma").format("HH:mm:ss");
-    const xdate = moment.tz("Tanzania/Dodoma").format("DD/MM/YYYY");
-    const time2 = moment().tz("Tanzania/Dodoma").format("HH:mm:ss");
+    const realTime = moment().tz("Sri Lanka/Colombo").format("HH:mm:ss");
+    const xtime = moment.tz("Sri Lanka/Colombo").format("HH:mm:ss");
+    const xdate = moment.tz("Sri Lanka/Colombo").format("DD/MM/YYYY");
+    const time2 = moment().tz("Sri Lanka/Colombo").format("HH:mm:ss");
 let pushwish = "";
 
 if (time2 < "05:00:00") {
@@ -47,7 +47,7 @@ if (time2 < "05:00:00") {
   pushwish = `Good Night 🌌`;
 }
 
-    const aliveMessage = `*CODES BY JOEL XMD*
+    const aliveMessage = `*CODES BY ZERO XMD*
     *---------------------`;
 
     await m.React('☄️'); // React with a success icon
@@ -55,7 +55,7 @@ if (time2 < "05:00:00") {
     sock.sendMessage(
       m.from,
       {
-            audio: { url: 'https://github.com/joeljamestech2/JOEL-XMD/raw/refs/heads/main/mydata/media/menu.mp3' },
+            audio: { url: 'https://files.catbox.moe/fbcycg.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -64,15 +64,15 @@ if (time2 < "05:00:00") {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363317462952356@newsletter',
-                    newsletterName: 'jᴊᴏᴇʟ xᴅ ʙᴏᴛ ᴠ ⁷',
+                    newsletterName: 'ᴢᴇʀᴏ xᴍᴅ ʙᴏᴛ ᴠ ⁷',
                     serverMessageId: 143
             },
             forwardingScore: 999, // Score to indicate it has been forwarded
             externalAdReply: {
-            title: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ",
+            title: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ",
             body: `UPTIME ${days}D ${hours}H ${minutes}M ${seconds}S`,
-            thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg', // Add thumbnail URL if required
-            sourceUrl: 'https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K', // Add source URL if necessary
+            thumbnailUrl: 'https://files.catbox.moe/3jpwr1.jpg', // Add thumbnail URL if required
+            sourceUrl: 'https://facebook.com/dasundularaka', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true,
           },
