@@ -12,7 +12,7 @@ const profileCommand = async (m, Matrix) => {
     try {
       ppUrl = await Matrix.profilePictureUrl(sender, 'image');
     } catch {
-      ppUrl = "https://telegra.ph/file/95680cd03e012bb08b9e6.jpg";
+      ppUrl = "https://files.catbox.moe/3jpwr1.jpg";
     }
 
     let status;
@@ -24,7 +24,7 @@ const profileCommand = async (m, Matrix) => {
 
     const mess = {
       image: { url: ppUrl },
-      caption: `Name: ${name}\nAbout:\n${status.status}\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴏᴇʟ xᴍᴅ*`,
+      caption: `Name: ${name}\nAbout:\n${status.status}\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ*`,
       ...(m.quoted ? { mentions: [sender] } : {}) // Mention only if quoted
     };
 
