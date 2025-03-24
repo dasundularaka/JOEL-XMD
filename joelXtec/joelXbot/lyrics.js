@@ -15,7 +15,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     try {
       await m.React('🕘');
-      await m.reply('A moment, *ᴊᴏᴇʟ ᴍᴅ* is generating your lyrics request...');
+      await m.reply('A moment, *ᴢᴇʀᴏ xᴍᴅ* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
@@ -46,7 +46,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
               display_text: "ƒσℓℓσω υѕ",
-              url: `https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K`
+              url: `https://facebook.com/dasundularaka`
             })
           },
           {
@@ -70,10 +70,10 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *ρσωєяє∂ ву ℓσя∂ χ ʝσєℓ*"
+                  text: "> *ρσωєяє∂ ву zєяσ-χм∂*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
-                  title: "ʝσєℓ χ∂ ν⁷",
+                  title: "zєяσ-χм∂ ν⁷",
                   subtitle: "ℓуяι¢ѕ ƒιη∂єя",
                   hasMediaAttachment: false
                 }),
