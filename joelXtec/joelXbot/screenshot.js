@@ -41,7 +41,7 @@ const screenshotCommand = async (m, gss) => {
         m.from,
         {
           image: Buffer.from(response.data, "binary"),
-          caption: `*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ*`,
+          caption: `*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ ʙᴏᴛ*`,
         },
         { quoted: m }
       );
