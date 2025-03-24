@@ -22,7 +22,7 @@ const shortenUrl = async (m, sock) => {
 
         m.from,
 
-        { text: "ρℓєαѕє ρяσνι∂є α υяℓ тσ ѕнσятєη. єχαмρℓє:!shortenurl https://github.com/joeljamestech/JOEL-XMD*" },
+        { text: "ρℓєαѕє ρяσνι∂є α υяℓ тσ ѕнσятєη. єχαмρℓє:!shortenurl https://github.com/dasundularaka/JOEL-XMD*" },
 
         { quoted: m }
 
@@ -46,7 +46,7 @@ const shortenUrl = async (m, sock) => {
 
         const shortenedUrl = data.BK9.url;
 
-        const responseText = `*ᴊᴏᴇʟ xᴍᴅ sʜᴏʀᴛᴇɴ ᴜʀʟ*\n\n*ᴏʀɪɢɪɴᴀʟ ᴜʀʟ*: *${originalUrl}*\n*sʜᴏʀᴛᴇɴᴇᴅ ᴜʀʟ:* *${shortenedUrl}\n\n _ᴛᴀᴘ ᴀɴᴅ ʜᴏʟᴅ ᴏɴ ᴛʜᴇ sʜᴏʀᴛᴇɴᴇᴅ ᴜʀʟ ᴛᴏ ᴄᴏᴘʏ ɪᴛ_\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴏᴇʟ ᴊᴀᴍᴇsᴛᴇᴄʜ*`;
+        const responseText = `*ᴢᴇʀᴏ xᴍᴅ sʜᴏʀᴛᴇɴ ᴜʀʟ*\n\n*ᴏʀɪɢɪɴᴀʟ ᴜʀʟ*: *${originalUrl}*\n*sʜᴏʀᴛᴇɴᴇᴅ ᴜʀʟ:* *${shortenedUrl}\n\n _ᴛᴀᴘ ᴀɴᴅ ʜᴏʟᴅ ᴏɴ ᴛʜᴇ sʜᴏʀᴛᴇɴᴇᴅ ᴜʀʟ ᴛᴏ ᴄᴏᴘʏ ɪᴛ_\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ*`;
 
         await sock.sendMessage(
 
@@ -64,7 +64,7 @@ const shortenUrl = async (m, sock) => {
 
                 newsletterJid: "120363317462952356@newsletter",
 
-                newsletterName: "ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ",
+                newsletterName: "ᴢᴇʀᴏ xᴍᴅ ʙᴏᴛ",
 
                 serverMessageId: -1,
 
@@ -74,13 +74,13 @@ const shortenUrl = async (m, sock) => {
 
               externalAdReply: {
 
-                title: "ᴊᴏᴇʟ xᴍᴅ ᴠ⁷ ʙᴏᴛ",
+                title: "ᴢᴇʀᴏ xᴍᴅ ᴠ⁷ ʙᴏᴛ",
 
                 body: "υяℓ ѕнσятєηєя ѕєяνι¢e",
 
-                thumbnailUrl: "", // Add thumbnail URL if required
+                thumbnailUrl: "https://files.catbox.moe/3jpwr1.jpg", // Add thumbnail URL if required
 
-                sourceUrl: "https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K", // Source URL
+                sourceUrl: "https://facebook.com/dasundularaka", // Source URL
 
                 mediaType: 1,
 
@@ -118,11 +118,11 @@ const shortenUrl = async (m, sock) => {
 
             externalAdReply: {
 
-              title: "ᴊᴏᴇʟ xᴅ ᴠ⁷ ʙᴏᴛ",
+              title: "ᴢᴇʀᴏ xᴍᴅ ᴠ⁷ ʙᴏᴛ",
 
               body: "ѕнσят υяℓ ѕєяνι¢єѕ",
 
-              sourceUrl: "https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K",
+              sourceUrl: "https://facebook.com/dasundularaka",
 
               mediaType: 1,
 
