@@ -2,7 +2,7 @@ import config from '../../config.cjs';
 import fetch from 'node-fetch';
 
 let awayMessageEnabled = false;  // Initially, away message is off
-let awayMessageText = 'Hello, I\'m unavailable.'; // Updated away message text
+let awayMessageText = 'Hello, My Name is Zero XMD, developed by ᴅᴀꜱᴜɴ ᴅᴜʟᴀʀᴀᴋᴀ. My owner is away now. He will reply you as soon as possible. But you can talk with me until he came. If urgent, Please contact him through a call. Thank You!'; // Updated away message text
 
 const awayMessageCommand = async (m, Matrix) => {
     const text = m.message?.conversation || m.message?.extendedTextMessage?.text || null; // Extract text
