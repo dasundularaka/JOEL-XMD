@@ -4,8 +4,8 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "logo":"https://files.catbox.moe/5a2euh.jpg",
-  "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
+  "logo":"https://files.catbox.moe/3jpwr1.jpg",
+  "repository": "https://github.com/dasundularaka/Ethix-MD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -46,7 +46,7 @@
     "SUDO_NUMBER": {
       "description": "Put Sudo Numbers separated by comma Here. Sudos are limited to owner commands else leave blank",
       "required": false,
-      "value": "255781144539"
+      "value": "94765714446"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -71,7 +71,7 @@
     "AUTO_BIO": {
       "description": "make it true if you want the bot to update de bio after restart",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
