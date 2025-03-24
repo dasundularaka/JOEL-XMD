@@ -13,7 +13,7 @@ await m.React('⏳'); // React with a loading icon
       m.from,
       {
         video: { url: videoUrl },
-        caption: `📖 *ᴊᴏᴇʟ xᴅ v⁷ ǫᴜʀᴀɴ ᴠɪᴅᴇᴏs* 📖\n\n¢яєαтє∂ ву ℓσя∂ ʝσєℓ`,
+        caption: `📖 *ᴢᴇʀᴏ xᴍᴅ v⁷ ǫᴜʀᴀɴ ᴠɪᴅᴇᴏs* 📖\n\n¢яєαтє∂ ву zєяσ-χм∂`,
       },
       { quoted: m }
     );
